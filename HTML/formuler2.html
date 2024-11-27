@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login PUBG: Battlegrounds</title>
+</head>
+<body>
+    <h1>PUBG: Battlegrounds</h1>
+    <form action="submit_login.php" method="post">
+        <table border="1">
+            <thead bgcolor="yellow">
+                <tr>
+                    <th>Numéro</th>
+                    <th>Nom d'utilisateur</th>
+                    <th>Sexe</th>
+                    <th>Date de naissance</th>
+                    <th>Mot de passe</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="number" name="numero" min="1" required></td>
+                    <td><input type="text" name="username" placeholder="entrez votre id " required></td>
+                    <td>
+                        <input type="radio" name="sexe" id="feminin" value="Féminin">
+                        <label for="feminin">Féminin</label>
+                        <input type="radio" name="sexe" id="masculin" value="Masculin">
+                        <label for="masculin">Masculin</label>
+                    </td>
+                    <td><input type="date" name="date_naissance" required></td>
+                    <td><input type="password" name="password" placeholder="Mot de passe" required></td>
+                    <td>
+                        <button type="submit">Se connecter</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+</head>
+<body>
+    <center>
+        <h1><u>Formulaire</u></h1>
+        <table border="5" >
+            <tr><td>nom</td><td><input type="text" size="35" placeholder="Veuillez saisir votre nom"></td></tr>
+            <tr><td>prenom</td><td><input type="text" size="35" placeholder="Veuillez saisir votre prenom"></td></tr>
+            <tr><td>sexe</td>
+                <td><form>
+                    <label for="radio">masculin</label><input type="radio" name="a">
+                    <label for="radio">female</label><input type="radio" name="a">
+                </form></td>
+            </tr>
+            <tr><td>Date de naissance</td><td><input type="date"></td></tr>
+            <tr><td>Niveau d'etude</td>
+            <td><select name="select">
+                <option value="3ème année">3ème année</option>
+                <option value="2ème année">2ème année</option>
+                <option value="1ème année">1ème année</option>
+            </select></td></tr>
+            <tr><td>specialite</td><td><input list="specialite" size="35" placeholder="Veuillez choisir votre specialite">
+                <datalist id="specialite">
+                    <option value="developer">
+                    <option value="software eng">
+                    <option value="architecte">
+                    <option value="backend">
+                    <option value="frontend">
+                </datalist>
+            </td></tr>
+            <tr><td>Telephone</td><td><input type="tel" size="35" placeholder="Veuillez saisir votre num de Telephone"></td></tr>
+            <tr><td>Email</td><td><input type="email" size="35" placeholder="example@gamil.com"></td></tr>
+            <tr><td>site web personnel</td><td><input type="url" size="35" placeholder="https://example.com"></td></tr>
+            <tr><td>adresse</td><td><textarea placeholder="Veuillez saisir votre adresse"></textarea></td></tr>
+            <tr><td>Photo</td><td><input type="file"></td></tr>
+        </table>
+    </center>
+</body>
+</html>
