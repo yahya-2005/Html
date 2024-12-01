@@ -1,0 +1,271 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription des Étudiants</title>
+    <link rel="icon" type="png" href="c:\Users\SetupGame\Downloads\success-student-school-logo-vector-4147150.png">
+</head>
+<body>
+    <style>
+        body {
+            background-color: #ccf175b4; 
+            color: #333;
+                    }
+       </style>
+    <center>
+        <nav>
+            <img src="c:\Users\SetupGame\Downloads\success-student-school-logo-vector-4147150.png" alt="Logo de l'OFPPT" height="100px"width="100px">
+            <nav>
+                <a href="file:///C:/Users/SetupGame/Desktop/exercice/altissia.html">site s'Altissia</a>
+                <a href="#formulaire">formulaire</a>
+                <a href="file:///C:/Users/SetupGame/Desktop/exercice/ofppt.html">OFPPT</a>
+        </nav>
+    </center>
+    <section id="formulaire">
+        <center>
+            <style>
+                h2 {
+                    color: rgb(10, 48, 10);
+                }
+            </style>
+            <h2> Inscription des Étudiants et Répertoire des Participants : </h2>
+        </center>
+        
+        <style>
+            table {
+                width: 80%;
+                border-collapse: collapse;
+                margin: 20px 0;
+                font-size: 16px;
+                text-align: left;
+            }
+        
+            table thead th {
+                background-color: hsl(108, 77%, 47%);
+                color: white;
+                padding: 10px;
+                border: 2px solid #ddd;
+            }
+        
+            table tbody td {
+                padding: 10px;
+                border: 2px solid #ddd;
+            }
+        
+            table tbody tr:nth-child(even) {
+                background-color: #f9f9f9;
+            }
+        
+            table tbody tr:nth-child(odd) {
+                background-color: #fff;
+            }
+            table tbody td[style*="background-color: rgb(255, 109, 99)"] {
+                font-weight: bold;
+                color: rgba(255, 255, 255, 0.87);
+            }
+        
+            table tbody td[style*="background-color: rgb(255, 253, 142)"] {
+                font-weight: bold;
+            }
+            table tbody td[style*="background-color: rgb(197, 255, 142)"] {
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="" method="post">
+            <table border="7">
+                <thead bgcolor="green">
+                    
+                    <tr>
+                        <th>nom et prénom</th>
+                        <th>niveaux scolaire</th>
+                        <th>matière préférée</th>
+                        <th>activite préférée</th>
+                        <th>Zone de commentaires</th>
+                        <th>Email</th>
+                        <th>mot de passe</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <input type="text" name="text" placeholder="Entrez voter nom et prénom" required>
+                        </td>
+                        <td>
+                            <input type="radio" name="niveaux scolaire" id=" Primaire" value=" Primaire" required>
+                            <label for=" Primaire"> Primaire</label>
+                            <br>
+                            <input type="radio" name="niveaux scolaire" id="Collège" value="Collège" required>
+                            <label for="Collège">Collège</label>
+                            <br>
+                            <input type="radio" name="niveaux scolaire" id="Lycée" value="Lycée" required>
+                            <label for="Lycée">Lycée</label>
+                        </td>
+                        <td>
+                            <input list="activite préférée" name="activite préférée" placeholder="entrez votre activite préférée">
+                         <datalist id="activite préférée">
+                         <option value="Sciences">
+                         <option value="Physique">
+                         <option value="Littérature">
+                         <option value="Français">
+                         <option value="Histoire">
+                        </td>
+                        <td>
+                            <input list="activite préférée" name="activite préférée" placeholder="Choisissez votre activite préférée" required>
+                            <datalist id="activite préférée">
+                                <option value="Sport">
+                                <option value=" Musique">
+                                <option value="Théâtre">
+                            </datalist>
+                        </td>
+
+                            <td><textarea></textarea></td>
+                        <td>
+                            <input type="email" name="email" required>
+                        </td>
+                        <td>
+                            <input type="password" name="password" placeholder="Mot de passe" required>
+                        </td>
+                        <td>
+                            <button type="submit">Se connecter</a></button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+           <style>
+            table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #f4f4f4;
+}
+           </style>
+     <h2>Données des élèves inscrits</h2>
+     <table>
+         <thead>
+             <tr>
+                 <th>Nom</th>
+                 <th>Email</th>
+                 <th>Niveau</th>
+                 <th>Matière préférée</th>
+                 <th>Activités</th>
+             </tr>
+             <tr>
+                <td>Jean Dupont</td>
+                <td>jean.dupont@example.com</td>
+                <td>Collège</td>
+                <td>Mathématiques</td>
+                <td>Sport</td>
+            </tr>
+            <tr>
+                <td>Marie Curie</td>
+                <td>marie.curie@example.com</td>
+                <td>Lycée</td>
+                <td>Physique</td>
+                <td>Théâtre</td>
+            </tr>
+            <tr>
+                <td>Paul Martin</td>
+                <td>paul.martin@example.com</td>
+                <td>Primaire</td>
+                <td>Français</td>
+                <td>Sport</td>
+            </tr>
+            <tr>
+                <td>Lucie Bernard</td>
+                <td>lucie.bernard@example.com</td>
+                <td>Collège</td>
+                <td>Histoire</td>
+                <td>Musique</td>
+            </tr>
+            <tr>
+                <td>Antoine Dubois</td>
+                <td>antoine.dubois@example.com</td>
+                <td>Lycée</td>
+                <td>Mathématiques</td>
+                <td>Sport</td>
+            </tr>
+            <tr>
+                <td>Claire Moreau</td>
+                <td>claire.moreau@example.com</td>
+                <td>Primaire</td>
+                <td>Français</td>
+                <td>Musique</td>
+            </tr>
+            <tr>
+                <td>Thomas Leroy</td>
+                <td>thomas.leroy@example.com</td>
+                <td>Collège</td>
+                <td>Physique</td>
+                <td>Sport</td>
+            </tr>
+            <tr>
+                <td>Sophie Petit</td>
+                <td>sophie.petit@example.com</td>
+                <td>Lycée</td>
+                <td>Littérature</td>
+                <td>Musique</td>
+            </tr>
+            <tr>
+                <td>Émile Rousseau</td>
+                <td>emile.rousseau@example.com</td>
+                <td>Primaire</td>
+                <td>Histoire</td>
+                <td>Théâtre</td>
+            </tr>
+            <tr>
+                <td>Chloé Garnier</td>
+                <td>chloe.garnier@example.com</td>
+                <td>Collège</td>
+                <td>Physique</td>
+                <td>Musique</td>
+            </tr>
+            <tr>
+                <td>Julien Fontaine</td>
+                <td>julien.fontaine@example.com</td>
+                <td>Lycée</td>
+                <td>Français</td>
+                <td>Sport</td>
+            </tr>
+            <tr>
+                <td>Manon Dubois</td>
+                <td>manon.dubois@example.com</td>
+                <td>Primaire</td>
+                <td>Mathématiques</td>
+                <td> Théâtre</td>
+            </tr>
+            <tr>
+                <td>Hugo Caron</td>
+                <td>hugo.caron@example.com</td>
+                <td>Collège</td>
+                <td>Histoire</td>
+                <td>Sport</td>
+            </tr>
+            <tr>
+                <td>Léa Robin</td>
+                <td>lea.robin@example.com</td>
+                <td>Lycée</td>
+                <td>Physique</td>
+                <td>Musique</td>
+            </tr>
+            <tr>
+                <td>Mathieu Perrin</td>
+                <td>mathieu.perrin@example.com</td>
+                <td>Primaire</td>
+                <td>Français</td>
+                <td>Sport</td>
+            </tr>
+
+        </body>
+</html> 
